@@ -1,0 +1,102 @@
+<html lang="en"><head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hangman</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!-- add a nav for more info to costemers-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="navbar-brand">Jose Leyva</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- container consists of the header and a peragraph describing the game -->
+    <div class="container">
+        <div class="jumbotron"></div>
+        <h1 class="title">Hangman Game</h1>
+        <p>Use the alphabet below to guess the word,or click the hint box to get a clue .Win the game to find out the
+            prize at the end</p>
+    </div>
+    
+    <!-- call for the id for js. -->
+    <div class="container">
+        <div id="game buttons">
+        </div>
+        <div id="blankSpaceName">
+            <div id="hold"></div>
+            <p id="lives"></p>
+            <p id="clue">Clue </p>
+            <hr>
+            <br><br>
+            <div class="container">
+                <p> Your Score</p>
+                <canvas id="stickmanpic"></canvas>
+                <button id="hint">Hint!</button>
+                <button id="reset game">Play Again!</button>
+            </div>
+            <p>
+                Total Wins: <span id:wincount=""></span>
+            </p>
+            <p>
+                Total Losses: <span id:lossescount=""></span>
+            </p>
+        </div>
+
+    </div>
+    
+
+    <div>
+        <h3>Instructions</h3>
+    </div>
+    <p>
+        Give it a try! It is the traditional Hangman game. Choose a letter guess the word that gose in the blank
+        spaces. If your lucky you will se the prize at the end.
+    </p>
+    <div>
+        <!-- place a interactive image -->
+        <img src="">
+    </div>
+
+
+    <div class="col-md-6">
+        <h3>Guess the word</h3>
+        <div><span id="blank-space" class="stuff"></span>
+            <div id="costemer-tryes">
+
+            </div>
+
+        </div>
+
+    </div>
+    <footer>
+        <div>
+
+        </div>
+
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+</body></html>

@@ -1,0 +1,90 @@
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+body {
+	width: 100%;
+  background:url("https://cache.desktopnexus.com/thumbseg/1822/1822447-bigthumbnail.jpg");
+      background-size: cover;
+
+
+	    }
+
+.header{
+background:url("http://spacecoastsymphony.org/wp-content/uploads/2016/04/Wild-Wild-West.jpg");
+height:177px;
+ margin:auto;
+ margin-bottom:5px;
+ width:100%;
+ border-bottom:solid gray 5px;
+}
+
+.clue{
+    margin: auto;
+    padding: 1px;
+
+
+
+}
+.game-title{
+color: goldenrod;
+font-style: oblique;
+}
+
+.game-content{
+ text-align: center;
+ font-size: 1em;
+ min-height: 500px;	
+ width:100%;
+}
+
+#gameover-image, #youwin-image {
+margin: auto;
+
+}
+
+
+.game-content th, .game-content td {
+ border: solid 15px goldenrod;
+ width: 60%;
+
+}
+
+
+main {
+border-radius: 20px;
+padding: 20px;
+max-width: 126% !important;
+min-height:518px;
+margin-bottom: 12%;
+
+
+}
+
+.haingTitle {
+    font-size: 2em;
+
+}
+
+.footer {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT6WmCdh2bmlS2gHLNyb-adJobhdmlPQV-Dar_cZWME4wj0Pya") no-repeat;
+    width: 100%;
+    height: min-content;
+    margin-bottom:27%;
+
+}
+
+#pressKeyTryAgain {
+color: burlywood;
+
+}
+
+#currentWord {
+letter-spacing: 10px;
+font-size: 1.5em;
+
+}
+
+
